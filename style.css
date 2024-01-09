@@ -1,0 +1,92 @@
+body{
+    background-image:url("https://wallpaperaccess.com/full/2830072.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color:yellow;
+}
+h1:hover{
+    color:blueviolet;
+    background-color: aqua;
+    font-family:serif;
+    text-decoration: underline;
+}
+img{
+    width:150px;
+    height:150px;
+    border:ridge 5px black;
+}
+.img1{
+    border-radius: 25px;
+    
+}
+
+.img2{
+    border-radius: 25px 50px 30px 70px;  
+}
+.img3{
+    border-radius: 100px;
+}
+
+.img4{
+    
+    border-radius: 25% 50% / 75% 100%;
+}
+
+.img5{
+    border-radius: 75px 50px 20px 100px;
+    
+}
+
+.img6{
+    border-radius: 100px 75x 50px 25px;
+    
+}
+
+.img7{
+    border-radius: 30% 60% / 90% 120%;
+    
+}
+.img1:hover{
+    border-radius:30% 60% / 90% 120%;
+    margin-top: 30px;
+    margin-bottom:40px;
+    box-shadow:30px 20px 10px black;
+}
+.img2:hover{
+    border-radius:20px 40px 80px 100px;
+    margin-top: 50px;
+    margin-bottom:30px;
+    box-shadow:50px 10px 30px orange;
+}
+.img3:hover{
+    border-radius:30% 20% / 10% 50%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    box-shadow:80px 90px 100px magenta;
+}
+.img4:hover{
+    border-radius:100px;
+    margin-top: 30px;
+    margin-bottom:40px;
+    box-shadow:90px 70px 35px purple;
+}
+.img5:hover{
+    border-radius:90%;
+    margin-top: 30px;
+    margin-bottom:20px;
+    box-shadow:70px 20px 10px red;
+}
+.img6:hover{
+    border-radius:10% 40% / 90% 100%;
+    margin-top: 20px;
+    margin-bottom:15px;
+    box-shadow:30px 20px 10px green;
+}
+.img7:hover{
+    border-radius:10% 10% / 10% 10%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    box-shadow:20px 20px 20px blue;
+}
